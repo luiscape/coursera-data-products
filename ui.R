@@ -1,4 +1,8 @@
 library(shiny)
+library(forecast)
+library(dplyr)
+library(RcppArmadillo)
+library(BH)
 
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
@@ -19,7 +23,8 @@ shinyUI(fluidPage(
       strong("How much do you think will be necessary to fully fund those operations?"),
       p(),
       p(),
-      h3(textOutput("ctotal"))
+      h3(textOutput("ctotal")),
+      h6("Source: UNOCHA's Financial Tracking Service (http://fts.unocha.org/)")
     ),
     
     # Show a plot of the generated distribution
