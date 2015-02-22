@@ -1,0 +1,2 @@
+# Forecasting Ebola Contributions
+This simple shiny app puts in perspective current rate of financial contributions to the Ebola response operations. It uses data from OCHA's [Financial Tracking Service](http://fts.unocha.org/) to predict how a future contribution will affect the forecast of having the compete appeal funded. Users provide a multi-million dollar contribution and see how that affects the forecast.
